@@ -1,5 +1,5 @@
 # baseadapterhelper
-a handy adapter for ListView and RecyClerview. base on JoanZapata's base-adapter-helper but add support for RecyClerview.
+a handy adapter for ListView and RecyClerview. base on   [JoanZapata's base-adapter-helper](https://github.com/JoanZapata/base-adapter-helper )  but add support for RecyClerview.
 
 ##How to use it
 
