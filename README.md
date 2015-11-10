@@ -20,7 +20,7 @@ example code above show how to set the value of TextView and ImageView,infact if
 ```java
   public Button getButton(int viewId)
 ```
-***so how can I set the value (or handle) other type of views?***
+***so how can I set the value of(or handle) other type of views?***
 
 for example a custom circle ImageView from the third party :CircleImageView.
 we can use getView method  
