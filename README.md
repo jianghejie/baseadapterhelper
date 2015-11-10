@@ -1,5 +1,5 @@
 # baseadapterhelper
-a handy adapter for ListView and RecyClerview. base on JoanZapata's base-adapter-helper and add support for RecyClerview
+a handy adapter for ListView and RecyClerview. base on JoanZapata's base-adapter-helper but add support for RecyClerview.
 
 ##How to use it
 
@@ -13,4 +13,17 @@ mAdapter = new QuickAdapter<Item>(this, R.layout.item_demo){
     }
 };
 mRecyclerView.setAdapter(mAdapter);
+```
+very simple and clean.
+
+example code above show how to set the value of TextView and ImageView,infact if you read the code of the lib,you can find there is another method to solve Button
+```java
+  public Button getButton(int viewId)
+```
+so how can I set the value (or handle) other type of views?
+for example a custom circle ImageView from the third party :CircleImageView.
+we can use getView method  
+```java
+ CircleImageView avatar = (CircleImageView)helper.getView(R.id.avatar);
+ Picasso.with(context).load(item.getAvatar()).into(avatar);
 ```
