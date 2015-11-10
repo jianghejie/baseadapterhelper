@@ -63,7 +63,7 @@ public abstract class BaseQuickAdapter <T, H extends BaseAdapterHelper> extends 
         return mItems.get(position);
     }
 
-    public void addData(T item) {
+    public void addItem(T item) {
         mItems.add(item);
         notifyDataSetChanged();
     }
