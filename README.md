@@ -28,4 +28,5 @@ we can use getView method
  CircleImageView avatar = (CircleImageView)helper.getView(R.id.avatar);
  Picasso.with(context).load(item.getAvatar()).into(avatar);
 ```
-
+##other
+[an article about this project](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0809/3277.html ) 
