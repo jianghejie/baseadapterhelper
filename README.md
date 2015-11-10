@@ -3,7 +3,7 @@ a handy adapter for ListView and RecyClerview. base on JoanZapata's base-adapter
 
 ##使用
 **activity_main.xml**
-``
+```java
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,9 +18,9 @@ a handy adapter for ListView and RecyClerview. base on JoanZapata's base-adapter
      />
 
 </FrameLayout>
-``
+```
 MainActivity.java
-``
+```java
 package com.jcodecraeer.sample;
 
 import android.os.Bundle;
@@ -69,10 +69,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
-``
+```
 item_demo.xml
-``
+```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -101,9 +100,9 @@ item_demo.xml
         android:layout_below="@id/title"/>
 
 </RelativeLayout>
-``
+```
 Item.java
-``
+```java
 package com.jcodecraeer.sample;
 
 /**
@@ -138,4 +137,4 @@ public class Item {
         this.avatar = avatar;
     }
 }
-``
+```
