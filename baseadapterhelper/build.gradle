@@ -2,13 +2,13 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "0.0.1"
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -27,7 +27,8 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
 }
 def siteUrl = 'https://github.com/jianghejie/baseadapterhelper'   // 项目的主页
-def gitUrl = 'git@github.com:jianghejie/baseadapterhelper.git'   // Git仓库的url
+def gitUrl = 'https://github.com/jianghejie/baseadapterhelper.git'   // Git仓库的url
+version = "0.0.2"
 group = "com.jcodecraeer"            // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
